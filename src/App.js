@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import './Styles/Mainbox.css';
+import './Styles/Rightbox.css';
+
+
+
+
+import Mainbox from './Components/Mainbox';
+import Rightbox from './Components/Rightbox';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+ < Mainbox/>
+
+    <Rightbox>
+
+</Rightbox>
+    
+    </>
+   
   );
 }
 

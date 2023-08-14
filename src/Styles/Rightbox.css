@@ -1,0 +1,751 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #B5D8FF;
+
+
+}
+
+.right-box{
+
+    width: 45rem;
+    height: 45rem;
+    background-color:#E4F1FF;
+    position: absolute;
+    top: 5rem;
+    left: 23rem;
+    border-radius: 2rem;
+    padding: 15px;
+}
+
+.heading-and-right-photo{
+    width: 95%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#heading-right-proper{
+
+background-color: transparent;
+    font-weight: bold;
+}
+
+.heading-right{
+
+    color: black;
+    background-color: transparent;
+
+    font-size: 13px;
+}
+
+.right-side-login-photo{
+
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    border-radius: 13px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\account.png');
+     background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.second-box-which-shows-upcoming-hours{
+
+    width: 100%;
+    height: 8rem;
+    border-radius: 2rem;
+    width: 86%;
+    height: 15rem;
+    background-color: white;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.heading-upcoming-hours-and-right-side-bars{
+
+    width: 100%;
+    height: 1rem;
+    background-color: transparent;
+    display: flex;
+}
+
+
+.left-side-heading-upcoming-hours{
+
+    font-size: 13px;
+    color: black;
+    background-color: transparent;
+}
+
+.rain-precipitation-and--next-day-box{
+
+    width: 5rem;
+    height: 12px;
+    display: flex;
+    position: relative;
+    background-color: #F1F1F1;
+border-radius: 10px;
+    left: 28rem;
+    padding: 2px;
+justify-content: center;
+
+}
+
+#rain-pricipitaiton-next-day-box{
+
+    width: 7rem;
+    height: 12px;
+    display: flex;
+    position: relative;
+    left: 14rem;
+    background-color: #F1F1F1;
+border-radius: 10px;
+padding: 3px;
+justify-content: center;
+
+
+}
+
+
+.rain-written{
+
+    color: black;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+.precipitation-written{
+
+    color: black;
+    font-size: 10px;
+    background-color: transparent;
+    opacity: 0.5;
+
+}
+
+.rain-precipitation-box{
+
+width: 7rem;
+height: 12px;
+display: flex;
+position: relative;
+left: 0rem;
+background-color: #F1F1F1;
+border-radius: 10px;
+padding: 3px;
+justify-content: center;
+
+
+}
+
+
+.contents-box{
+
+    height: 11rem;
+    width: 95%;
+    padding: 1rem;
+    display: flex;
+    background-color: transparent;
+
+    
+}
+
+
+
+
+
+.contents-bar-box-blue-color-small-boxes{
+    width: 2vh;
+    height: 28vh;
+    background-color: transparent;
+
+}
+
+
+.contents-box-eight-b{
+    background-color: transparent;
+}
+
+.content-box-time{
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 25px;
+    padding-right: 15px;
+    background-color: transparent;
+
+
+
+}
+
+.content-box-weather-icon{
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 0px;
+    padding-right: 15px;
+    background-color: transparent;
+    height: 19px;
+    width: 0px;
+    position: relative;
+    left: 25px;
+  
+}
+.content-box-weather-icon-one{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\cloud.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+.content-box-weather-icon-two{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\sun.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+
+
+
+.content-box-weather-icon-three{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\cloud.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+
+
+
+.content-box-weather-icon-four{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\cloud.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+
+
+
+
+.content-box-weather-icon-five{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\sun.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+
+
+
+.content-box-weather-icon-six{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\cloud.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+
+
+
+.content-box-weather-icon-seven{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\cloud.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+
+
+
+
+.content-box-weather-icon-eight{
+    width: 20px;
+    height: 20px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\sun.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+.content-box-temperature{
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 25px;
+    padding-right: 15px;
+    background-color: transparent;
+
+
+
+
+}
+
+.content-box-straight-line{
+
+    border-left: 1px solid black;
+    height: 7rem;
+    margin-left: 35px;
+    background-color: transparent;
+    opacity: 3;
+
+}
+
+
+.content-box-percentage{
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 25px;
+    background-color: transparent;
+    padding-right: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.heading-more-details-today-weather{
+    
+        width: 85%;
+        height: 1rem;
+        position: absolute;
+        top: 27rem;
+        left: 3rem;
+        font-size: 12px;
+        background-color: transparent;
+        
+}
+
+.third-box-contain-small-boxes{
+border-radius: 2rem;
+width: 86%;
+height: 15rem;
+background-color: transparent;
+position: absolute;
+top: 27rem;
+left: 2rem;
+border-radius: 1rem 2rem;
+padding: 2rem;
+display: grid;
+grid-template-columns: 14rem 14rem 10rem;
+grid-template-rows: 9rem 0rem 7rem;
+
+}
+
+.third-boxs-small-content{
+
+    width: 13rem;
+    height: 7rem;
+    border-radius: 15px;
+
+    background-color: white;
+
+    
+}
+
+.six-boxes-heading{
+
+    height: 1rem;
+    width: 95%;
+    position: relative;
+    background-color: transparent;
+    top: 12px;
+    left: 4px;
+    display: flex;
+    background-color: transparent;
+
+}
+
+.six-boxes-heading-right{
+
+    width: 36%;
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+    background-color: transparent;
+
+
+}
+
+.six-boxes-heading-left-icon{
+
+    width: 12%;
+    height: 6vh;
+    position: relative;
+    left: 5rem;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.six-boxes-main-icon{
+
+    
+    width: 100%;
+    height: 2rem;
+    position: relative;
+    background-color: transparent;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\thunder.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}
+
+.second-div-after-heading{
+
+    height: 1rem;
+    width: 95%;
+    position: relative;
+    /* background-color: transparent; */
+    top: 20px;
+    left: 4px;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    
+}
+
+#six-boxes-main-icon-box-6{
+
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\thunder.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   color: white;
+   background-color: transparent;
+
+}
+#six-boxes-main-icon-box-5{
+
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\temperature.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   color: white;
+   background-color: transparent;
+
+}
+
+#six-boxes-main-icon-box-4{
+
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\sun.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   color: white;
+   background-color: transparent;
+
+}
+
+#six-boxes-main-icon-box-3{
+
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\water-drop.png');
+    background-size: 100%;
+   background-repeat: no-repeat;
+   color: white;
+   background-color: transparent;
+
+}
+
+
+
+
+
+.second-div-after-heading-content-left{
+    
+    display: flex;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.second-div-after-heading-content-right{
+
+    font-size: 12px;
+    font-weight: 50;
+    background-color: transparent;
+    position: relative;
+    top: 3px;
+    left: 7px;
+
+
+
+}
+
+.percentage-range-6{
+    left: 79vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    background-color: transparent;
+    top: 15rem;
+}
+
+.percentage-range-per{
+
+    font-size: 10px;
+    background-color: transparent;
+    opacity: 0.6;
+}
+
+.percentage-range-bar-6{
+    left: 79vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #d4cccc;
+    top: 16rem;
+
+}
+
+.percentage-blue-range{
+
+    width: 7rem;
+    display: flex;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #2F90C5;
+}
+
+
+
+.percentage-range-5{
+    left: 43vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    background-color: transparent;
+    top: 15rem;
+}
+
+
+#percentage-range-of-5-box{
+    width: 15vh;
+}
+.percentage-range-bar-5{
+    left: 43vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #d4cccc;
+    top: 16rem;
+}
+
+.percentage-range-4{
+    left: 7vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    background-color: transparent;
+    top: 15rem;
+}
+
+.fourth-box-range-box{
+
+    left: 7vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: transparent;
+    top: 16rem;
+    
+}
+
+.fourth-box-range-box-main-small-ranges{
+    width: 6vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #d4cccc;
+
+}
+.fourth-box-range-box-main-small-ranges-one{
+    width: 6vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #2F90C5;
+
+}
+.fourth-box-range-box-main-small-ranges-two{
+    width: 3vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #2e90c5;
+
+}
+
+
+.percentage-range-3{
+    left: 79vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    background-color: transparent;
+    top: 6rem;
+}
+
+
+.percentage-range-box-3 {
+    left: 79vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: transparent;
+    top: 7rem;
+}
+
+.percentage-range-bar-3{
+    width: 3vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color:#d4cccc;
+
+}
+
+.percentage-range--blue-bar-3-1{
+    width: 3vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color:#2F90C5;
+}
+
+
+
+.percentage-range--blue-bar-3-2{
+    width: 7px;
+    height: 9px;
+    border-radius: 10px;
+    background-color:#2F90C5;
+}
+
+
+
+.percentage-range-1{
+    left: 7vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    background-color: transparent;
+    top: 6rem;
+}
+
+
+.one-box-range-box{
+
+    left: 7vh;
+    justify-content: space-between;
+    width: 12rem;
+    display: flex;
+    height: 9px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: transparent;
+    top: 7rem;
+    
+}
+
+.one-box-range-box-main-small-ranges{
+    width: 6vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #d4cccc;
+
+}
+.one-box-range-box-main-small-ranges-one{
+    width: 6vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #2e90c5;
+
+}
+
+.one-box-range-box-main-small-ranges-two{
+    width: 6vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #2e90c5;
+
+}
+
+.one-box-range-box-main-small-ranges-three{
+    width: 3vh;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #2e90c5;
+
+}
+
+.wind-box{
+
+    width: 7rem;
+    height: 6rem;
+    position: relative;
+    left: 9vh;
+    top: 2vh;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\kmjpg.jpg');
+    background-size: 122%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+
+}

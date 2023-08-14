@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #B5D8FF;
+
+
+}
+
+.background-blue{
+
+    width: 60rem;
+    height: 45rem;
+    position: absolute;
+    top: 5rem;
+    left: 8rem;
+    border-radius: 3rem;
+    padding: 15px;
+    background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\whether.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:30%  ;
+
+  
+}
+.background-blue-image-blur{
+
+    width: 60rem;
+    height: 45rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    border-radius: 3rem;
+    padding: 15px;
+    background-color: #59596b;
+    opacity: 0.5;
+
+
+}
+
+.heading-of-plus--and-celcius-and-farenheit{
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+    width: 13rem;
+    height: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-plus-sign{
+  background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\add.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: white;
+}
+.left-most-celcius-and-ferenhiet{
+    position: relative;
+    left: 0rem;
+    width: 4rem;
+    height: 12px;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+
+
+}
+
+.celcius{
+    font-size: 10px;
+    background-color: transparent;
+
+    color: white;
+}
+
+.togglebar{
+    background-color: transparent;
+
+}
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    background-color: transparent;
+
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 22px;
+    height: 10px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  #switch{
+    position: absolute;
+    /* top: 1rem; */
+  }
+  input:checked + label {
+    background: #2461dc;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 15px;
+
+  }
+  
+/*   
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    height: 100vh;
+  } */
+
+
+.farenheit{
+    font-size: 10px;
+    color: white;
+    background-color: transparent;
+
+
+}
+
+
+
+.right-plus-sign{
+    position: relative;
+    left: 0rem;
+    width: 1rem;
+    height: 1rem;
+
+}
+
+.left-side-country-name-and-date-time{
+
+    height: 4rem;
+    width: 13rem;
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    color: white;
+    background-color: transparent;
+}
+
+
+.left-side-country-name-and-time{
+
+    width: 12rem;
+    height: 2rem;
+    background-color: transparent;
+
+    display: flex;
+
+}
+
+.left-side-country{
+
+    width: 7rem;
+    height: 2rem;
+    background-color: transparent;
+
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    font-weight: 50;
+
+
+}
+
+#left-side-date-{
+
+    font-weight: 5;
+}
+
+
+.celcius-box{
+
+    height: 10rem;
+    width: 12rem;
+    background-color: transparent;
+
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+}
+
+
+
+.celcius-temperature{
+
+    width: 12rem;
+    height: 8rem;
+    background-color: transparent;
+    display: flex;
+    font-size: 6rem;
+    justify-content: center;
+    color: white;
+
+
+}
+
+
+.whether-sunny{
+    width: 12rem;
+    height: 2rem;
+    background-color: transparent;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    color: white;
+    
+
+}
+.whether{
+  width: 12rem;
+    height: 2rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -1rem;
+    left: -5vh;
+
+}
+
+.whether-icon{
+  width: 6vh;
+  height: 5vh;
+  background-image: url('C:\Users\admin\Whether App\my-a\src\Components\Images\sun.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+
+}
